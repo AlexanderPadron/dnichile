@@ -5,7 +5,7 @@ import (
     "strconv"
 )
 
-func validarRut(rut string) bool {
+func ValidarRut(rut string) bool {
 	// Eliminar puntos y guiones y convertir a mayúsculas
 	rut = strings.ToUpper(strings.ReplaceAll(rut, ".", ""))
 	rut = strings.ReplaceAll(rut, "-", "")
